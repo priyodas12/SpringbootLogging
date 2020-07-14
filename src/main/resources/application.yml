@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Springboot-Logging
+  output:
+    ansi:
+      enabled: always
+server:
+  port: 9976
+
+logging:
+  level:
+    root: DEBUG
+
+  file: Application.log
